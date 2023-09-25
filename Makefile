@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
-SRCS = main.cpp
+SRCS = LightSort.cpp
 OBJS = $(SRCS:.cpp=.o)
 EXEC = light_switch
 
